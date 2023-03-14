@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="interactive-rating-component-main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');</style>  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <div id="container-box">
+    <div id="back"></div>
+    <img src="/images/icon-star.svg" style="width: 10px;height: 10px;">
+  <div id="header">
+    How did we do?
+  </div>
+  <div id="description">
+    <p>Please let us know how we did with your support</p>
+    <p>request. All feedback is appreciated to help us</p>
+    <p>improve our offering!</p>
+  </div>
+  <div id="note">
+    <button class="back1" onclick="submit1(1)"><span class="nr">1</span></button>
+    <button class="back1" onclick="submit1(2)"><span class="nr">2</span></button>
+    <button class="back1" onclick="submit1(3)"><span class="nr">3</span></button>
+    <button class="back1" onclick="submit1(4)"><span class="nr">4</span></button>
+    <button class="back1" onclick="submit1(5)"><span class="nr">5</span></button>
+  </div>
+  <form>
+    <button type="submit" value="Submit" id="back-bt" onclick="submit1()">
+      SUBMIT
+    </button>
+  </form>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">@bachgen_br</a>.
+  </div>
+  <script src="interactive-rating-component-main.js"></script>
+</body>
+</html>
